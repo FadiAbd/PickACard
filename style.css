@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Align items in a column */
+  height: 100vh; /* Full viewport height */
+}
+
+.card img {
+  max-width: 100%; /* Ensure card image fits within the card */
+  max-height: 100%; /* Ensure card image fits within the card */
+  object-fit: contain; /* Preserve aspect ratio of the card image */
+}
+
+.btn-primary {
+  width: 200px; /* Set button width to match card container width */
+  margin-top: 20px;
+}
